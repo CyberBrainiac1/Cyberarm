@@ -20,4 +20,4 @@ Open the [Onshape assembly](https://cad.onshape.com/documents/ad097671b3f20c84e2
 
 On a Raspberry Pi 4B with a 16-channel PCA9685 Servo HAT, use channels 0–3 for the base through wrist. Follow the [Servo HAT setup guide](https://learn.adafruit.com/adafruit-16-channel-pwm-servo-hat-for-raspberry-pi/using-the-python-library) to enable I²C and install ServoKit.
 
-Run `python3 arm_keys.py`. Type **A/D** for the base, **W/S** for the shoulder, **J/L** for the elbow, or **I/K** for the wrist, then press Enter. Each step is 5°. **Q** quits. The keys were tested with simulated servos. Check the real joint limits before mounting the servo horns.
+Run `python3 arm_keys.py`. Type **A/D** for the base, **W/S** for the shoulder, **J/L** for the elbow, or **I/K** for the wrist, then press Enter. Each step is 5°. **Q** quits.
